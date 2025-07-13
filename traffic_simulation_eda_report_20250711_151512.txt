@@ -1,0 +1,18 @@
+Network Traffic Simulation EDA Report
+==================================================
+
+Generated on: 2025-07-11 15:15:12.428636
+
+
+
+5. Distribution Validation
+--------------------------------------------------
+Teaching Volume Power-law Fit: alpha=0.31 (Theoretical: 2.3)
+KS Test vs Power-law: KstestResult(statistic=np.float64(0.3362212547028295), pvalue=np.float64(0.0), statistic_location=np.float64(3184.739926670406), statistic_sign=np.int8(1))
+
+
+6. Cross-correlation Insights
+--------------------------------------------------
+Peak cross-correlation between class traffic and total volume:
+- Teaching: 124990646925.044 at lag 0
+- Managerial: 4013534689.205 at lag -15120

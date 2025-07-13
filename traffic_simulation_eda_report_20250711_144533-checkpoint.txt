@@ -1,0 +1,75 @@
+Network Traffic Simulation EDA Report
+==================================================
+
+Generated on: 2025-07-11 14:45:33.267076
+
+1. Dataset Overview
+--------------------------------------------------
+Time Range: 2024-01-01 00:00:00 to 2024-03-30 23:55:00
+Total Records: 25,920
+Time Resolution: 0 days 00:05:00
+
+Missing Values:
+timestamp                  0
+phase                      0
+capacity                   0
+total_requests             0
+total_volume               0
+Teaching_requests          0
+Teaching_volume            0
+Teaching_weight            0
+Non-teaching_requests      0
+Non-teaching_volume        0
+Non-teaching_weight        0
+Managerial_requests        0
+Managerial_volume          0
+Managerial_weight          0
+Non-managerial_requests    0
+Non-managerial_volume      0
+Non-managerial_weight      0
+utilization                0
+hour                       0
+day_of_week                0
+day_part                   0
+Teaching_demand_ratio      0
+Managerial_demand_ratio    0
+phase_code                 0
+
+2. Temporal Analysis
+--------------------------------------------------
+Academic Phase Distribution:
+phase
+Lecture           0.500000
+Examination       0.322222
+Administrative    0.177778
+
+3. Class-Specific Analysis
+--------------------------------------------------
+Summary Statistics by Class:
+class             Managerial  Non-managerial  Non-teaching      Teaching
+requests count  25920.000000    25920.000000  25920.000000  25920.000000
+         mean       7.101582        9.898264     11.474923     17.020293
+         std        8.039649        9.782800     12.031387     18.257191
+         min        0.000000        0.000000      0.000000      0.000000
+         25%        1.000000        3.000000      4.000000      5.000000
+         50%        4.000000        7.000000      8.000000     12.000000
+         75%       10.000000       14.000000     15.000000     22.000000
+         max       59.000000      125.000000    136.000000    233.000000
+volume   count  25920.000000    25920.000000  25920.000000  25920.000000
+         mean      93.683056     2391.871616   1989.367350   1459.903134
+         std      109.443670     3494.175779   2490.430021   1655.501439
+         min        0.000000        0.000000      0.000000      4.538675
+         25%       21.603713      534.317885    531.493008    421.221711
+         50%       53.149354     1313.597412   1220.461154    939.510027
+         75%      122.098301     2895.313877   2489.963785   1844.636754
+         max      882.518279   130814.962770  47540.300080  20709.201515
+
+4. Policy Weight Analysis
+--------------------------------------------------
+Overall Utilization: 87.18%
+Utilization by Capacity Period:
+timestamp
+2024    87.18%
+
+5. Distribution Validation
+--------------------------------------------------
